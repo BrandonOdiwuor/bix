@@ -61,6 +61,9 @@
           pkg-config
           qt6.wrapQtAppsHook # https://nixos.org/manual/nixpkgs/stable/#sec-language-qt
           xz
+          git
+          cppcheck
+          cpplint
         ]
         ++ platformPkgs isLinux [
           libsystemtap
