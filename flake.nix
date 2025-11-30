@@ -64,6 +64,7 @@
           git
           cppcheck
           cpplint
+          include-what-you-use
         ]
         ++ platformPkgs isLinux [
           libsystemtap
